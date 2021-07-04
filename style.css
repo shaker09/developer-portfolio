@@ -34,5 +34,7 @@ section{
 .dream-big{
     background-image: url(images/another.png);
     background-repeat: no-repeat;
+    background-position: bottom;
     background-position: right;
+
 }

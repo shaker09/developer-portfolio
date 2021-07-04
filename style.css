@@ -5,17 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
-}
-section{
-    display: flex;
-    margin-bottom: 100px;
 }
 }
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -37,5 +40,31 @@ section{
     background-repeat: no-repeat;
     background-position: bottom;
     background-position: right;
+}
+.experience-itam{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
 
+}
+.experience-area{
+    background-image: url(images/another.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#pro-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, salmon);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
